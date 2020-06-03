@@ -1,15 +1,40 @@
 body{
-    background: #000428;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #181717, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #302f2f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: azure;
 }
 .navbar{
-    background: #000428;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #181717, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #302f2f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-#introParagraph{
-    text-align: justify;
+.card{
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #181717, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #302f2f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#work ul{
+    list-style: none;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #181717, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #302f2f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Footer styles */
+.contactLinks{
+    padding-right:10px;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.contactLinks a:hover{
+    color: turquoise;
 }
