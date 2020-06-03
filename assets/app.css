@@ -22,7 +22,10 @@ h1,h2{
     font-family: 'Patrick Hand', cursive;
 }
 
-
+.btn-outline-info{
+    border-color: azure;
+    color: azure;
+}
 .card{
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #181717, #000000);  /* Chrome 10-25, Safari 5.1-6 */
@@ -30,12 +33,11 @@ h1,h2{
 }
 a{
     font-family: 'Inconsolata', monospace;
-    font-size: 1.5rem;
     color: azure;
     
 }
 a:hover{
-    color: aquamarine;
+    color:  #17a2b8;
     text-decoration: none;
 }
 
@@ -50,6 +52,10 @@ a:hover{
     background: -webkit-linear-gradient(to right, #181717, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #302f2f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: 1px solid whitesmoke;
+    font-family: 'Inconsolata', monospace;
+}
+#jumbotronP{
+    font-size: 1.6rem;
 }
 
 ul{
