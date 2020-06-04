@@ -21,6 +21,7 @@ body{
 
 p{
     font-family: 'Inconsolata', monospace;
+    text-align: justify;
 }
 
 #title{
@@ -32,6 +33,12 @@ p{
 #eusc {
     width: 90%;
 }
+
+#moreLink{
+    color: #1CB5E0;
+    text-decoration: underline;
+}
+
 
 .card{
     background: #000046;  /* fallback for old browsers */
