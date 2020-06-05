@@ -35,16 +35,18 @@
     <!-- Navigation Bar -->
     <nav id="mainNav" class="navbar fixed-top navbar-expand-lg navbar-dark py-0">
         <a class="navbar-brand" href="index.html">Maruf Monem</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        <button id="navButton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">At a glance <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="#intro">At a glance <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="#education">Education</a>
-                <a class="nav-item nav-link" href="#">Awards and Accomplisments</a>
-                <a class="nav-item nav-link " href="#">Work Experience</a>
+                <a class="nav-item nav-link " href="#job">Work Experience</a>
+                <a class="nav-item nav-link " href="#programming">Coding and Projects</a>
+                <a class="nav-item nav-link" href="#award">Awards and Accomplisments</a>
+                <a class="nav-item nav-link " href="#footer">Contact</a>
             </div>
         </div>
     </nav>
@@ -52,7 +54,7 @@
 
     <!-- section: intro -->
     <section id="intro">
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-5 mb-5">
             <!-- Image -->
             <div id="coverPhoto" class="row justify-content-center">
                 <div class="col-12 col-md-10 ">
@@ -86,7 +88,7 @@
                 <div class="col-md-3 col-lg-3 d-none d-md-block ">
                     <img src="assets/img/education6.jpg" class="img img-fluid" alt="">
                 </div>
-                <div class="col-md-8 col-lg-9 align-content-center">
+                <div class="col-md-8 col-lg-9 align-content-center leftLine">
                     <h2>B.Sc in Computer Science</h2>
                     <p>2016-2019</p>
                     <p class="text-justify">Started my university life in January of 2016 under the school of data and
@@ -104,7 +106,7 @@
                 <div class="col-md-3 col-lg-3 d-none d-md-block">
                     <img src="assets/img/education8.png" class="img img-fluid" alt="">
                 </div>
-                <div class="col-md-8 col-lg-9">
+                <div class="col-md-8 col-lg-9 leftLine">
                     <h2>Higher Secondary Certificate</h2>
                     <p>2015</p>
                     <p>I got admitted in Engineering University School and College in the year 2014 in the science
@@ -120,7 +122,7 @@
                 <div class="col-md-3 col-lg-3 d-none d-md-block">
                     <img src="assets/img/education8.png" class="img img-fluid" alt="">
                 </div>
-                <div class="col-md-8 col-lg-9">
+                <div class="col-md-8 col-lg-9 leftLine">
                     <h2>Seceondary School Certificate</h2>
                     <p>2013</p>
                     <p>Under the science divison passed with GPA 5.</p>
@@ -134,7 +136,7 @@
     </section>
 
     <!-- Section: Work Experience -->
-    <section id="education">
+    <section id="job">
         <h1 id="title" class="text-center display-5 py-2 mt-5 ">Work Experience</h1>
         <div class="container">
             <div class="row mt-5 align-items-center">
@@ -142,7 +144,7 @@
                 <div class="col-md-3 col-lg-3 d-none d-md-block ">
                     <img src="assets/img/education6.jpg" class="img img-fluid" alt="">
                 </div>
-                <div class="col-md-8 col-lg-9 align-content-center">
+                <div class="col-md-8 col-lg-9 align-content-center leftLine">
                     <h2>Lecturer</h2>
                     <p>2020(January) - 2020 (April)</p>
                     <p class="text-justify">I had gotten the huge opportunity to serve the university i spent my 4 years
@@ -195,12 +197,12 @@
                 </div>
             </div>
 
-            <!-- HSC  -->
+            <!-- Student Tutor  -->
             <div class="row mt-5 align-items-center">
                 <div class="col-md-3 col-lg-3 d-none d-md-block">
                     <img src="assets/img/education6.jpg" class="img img-fluid" alt="">
                 </div>
-                <div class="col-md-8 col-lg-9">
+                <div class="col-md-8 col-lg-9 leftLine">
                     <h2>Student Tutor</h2>
                     <p>2019 (September -December)</p>
                     <p>
@@ -214,13 +216,32 @@
                 </div>
             </div>
 
-            <!-- SSC  -->
-            <div class="row mt-5 align-items-center">
+             <!-- Content Creator  -->
+             <div class="row mt-5 align-items-center">
+                <div class="col-md-3 col-lg-3 d-none d-md-block">
+                    <img src="assets/img/youtube.png" class="img img-fluid" alt="">
+                </div>
+                <div class="col-md-8 col-lg-9 leftLine">
+                    <h2>Content Creator</h2>
+                    <p>2019 (September) - </p>
+                    <p id="youtubeLink"><a href="https://www.youtube.com/channel/UCioBuqYM2K-cttcdsBrMTlA">Learn with a CS grad</a></p>
+                    <p>
+                        We all have been there where we are searching youtube to find the content that properly represents what's being taught in class. 
+                        However, I always felt something lacking in the relevant videos. When I got the student-tutor job I thought 
+                        rather than these students matching their schedules with me why not I teach them online. 
+                        Thus the start of the channel. I make CS-related content here mostly theoretical concepts. 
+                        Please like and subscribe (shameless plug)!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Student Mentor  -->
+            <div class="row mt-5 align-items-center ">
 
                 <div class="col-md-3 col-lg-3 d-none d-md-block">
                     <img src="assets/img/education6.jpg" class="img img-fluid" alt="">
                 </div>
-                <div class="col-md-8 col-lg-9">
+                <div class="col-md-8 col-lg-9 leftLine">
                     <h2>Student Mentor</h2>
                     <p>2018(January) - 2019(August)</p>
                     <p>
@@ -394,7 +415,7 @@
     <section id="award">
         <h1 id="title" class="text-center display-5 py-2 mt-5">Awards / Achievements</h1>
         <div class="container">
-            <p id="awardParagraph">
+            <p id="awardParagraph" class="pt-4">
                 People say that they are hardworking, punctual, they are good at presenting and so on. I am no different
                 from them.I would say all of those above and more but not because that is what everyone is doing but
                 those are qualities thatI keep close to my heart and am very proud of it. Furthermore, I have
@@ -445,7 +466,7 @@
                         <h2>Full Attendance Award</h2>
                         <p>Little Jewel Infant & Junior School</p>
                     </div>
-                    <img src="assets/img/fullAttendance.jpeg" alt="vice chancellors certificate" class="img img-fluid my-3">
+                    <img src="assets/img/fullAttendance.jpeg" alt="Full Attendance Award" class="img img-fluid my-3">
                     <p class="d-inline d-md-none">
                        The first award I was so happy about it. Finally, I achieved something! I was really scared to say something in front of the whole class but sadly (?) 
                        that ceremony didn't take place because of strikes (Phew!!). Anyways stored it in a safe box ever since.
@@ -459,7 +480,64 @@
                         The first award I was so happy about it. Finally, I achieved something! I was really scared to say something in front of the whole class but sadly (?) 
                         that ceremony didn't take place because of strikes (Phew!!). Anyways stored it in a safe box ever since.
                     </p>
-                    <p id="quality">Punctual, Hardworking & Abides By The rules</p>
+                    <p id="quality">Punctual</p>
+                </div>
+
+            </div>
+
+            <!-- Award 3 -->
+            <div class="row justify-content-center align-items-center my-5">
+                <!-- certificate picture -->
+                <div class="col-12 col-md-6">
+                    <div class="d-inline d-md-none">
+                        <h2>Presentation Skills Certificate</h2>
+                        <p>Brac University</p>
+                    </div>
+                    <img src="assets/img/presentationSkill.jpeg" alt="Presentation Skill Certificate" class="img img-fluid my-3">
+                    <p class="d-inline d-md-none">
+                        I had completed a special course during my residential semester at Brac University. The course was related to increasing an individuals 
+                        presentation skills and teamwork abilities. My section was instructed by <a href="https://www.linkedin.com/in/habib-ghazi-999403a3?originalSubdomain=bd">Mr. Habib Ghazi</a>. I have been selected 
+                        as the best presenter multiple times and had the best slides in multiple challenges. 
+                        So, I can confidently say I have good skills regarding presenting and making simple yet eye-catching slides.
+                    </p>
+                </div>
+                <!-- Information about it -->
+                <div class="col-0 col-md-6 d-none d-md-block">
+                        <h2>Presentation Skills Certificate</h2>
+                        <p>Brac University</p>
+                    <p> 
+                        I had completed a special course during my residential semester at Brac University. The course was related to increasing an individuals 
+                        presentation skills and teamwork abilities. My section was instructed by <a href="https://www.linkedin.com/in/habib-ghazi-999403a3?originalSubdomain=bd">Mr. Habib Ghazi</a>. I have been selected 
+                        as the best presenter multiple times and had the best slides in multiple challenges. 
+                        So, I can confidently say I have good skills regarding presenting and making simple yet eye-catching slides.
+                    </p>
+                    <p id="quality">Hardworking, Presentation Skills & Team Mangement</p>
+                </div>
+
+            </div>
+
+            <!-- Award 3 -->
+            <div class="row justify-content-center align-items-center my-5">
+                <!-- certificate picture -->
+                <div class="col-12 col-md-6">
+                    <div class="d-inline d-md-none">
+                        <h2>FYAT(First Year Advising Team) Mentor</h2>
+                        <p>Brac University</p>
+                    </div>
+                    <img src="assets/img/fyat1.jpeg" alt="Fyat Mentor" class="img img-fluid my-3">
+                    <img src="assets/img/fyat2.jpeg" alt="Fyat Mentor" class="img img-fluid my-3">
+                    <p class="d-inline d-md-none">
+                        I was given recognition for my performance as a mentor.   
+                    </p>
+                </div>
+                <!-- Information about it -->
+                <div class="col-0 col-md-6 d-none d-md-block">
+                        <h2>FYAT(First Year Advising Team) Mentor</h2>
+                        <p>Brac University</p>
+                    <p> 
+                        I was given recognition for my performance as mentor.(one of 2 shown here)    
+                    </p>
+                    <p id="quality">Team Management & Communication</p>
                 </div>
 
             </div>
@@ -478,26 +556,28 @@
     <!-- Footer -->
     <section id="footer" class="mt-5 pt-5 mx-0">
         <div class="card">
-            <div class="card-header text-center">
-                <p class="lead">Our greatest weakness lies in giving up.
+            <div class="card-header">
+                <p class="lead text-center">Our greatest weakness lies in giving up.
                     The most certain way to succeed is always to try just one more time."
+                    
                 </p>
-                <footer class="blockquote-footer">Thomas A. Edison </cite></footer>
+                <footer class="blockquote-footer text-center"><cite>Thomas A. Edison </cite></footer>
+                
             </div>
-            <div class="card-body text-center">
-                <h2 class="justify-content-center">Contact Me:</h2>
-                <p>
-                    <a href="" class="contactLinks"><i class="fab fa-facebook-f"></i></a>
-                    <a href="" class="contactLinks"><i class="fab fa-instagram"></i></a>
-                    <a href="" class="contactLinks"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="" class="contactLinks"><i class="far fa-envelope"></i></a>
+            <div class="card-body">
+                <h2 class="justify-content-center text-center">Contact Me:</h2>
+                <p class="text-center">
+                    <a href="https://www.facebook.com/marufmonem.anik" class="contactLinks"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/maruf_monem_anik/" class="contactLinks"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/marufmonemanik" class="contactLinks"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto: maruf.monem@g.bracu.ac.bd?cc=marufmonem@google.com" class="contactLinks"><i class="far fa-envelope"></i></a>
+                    <a href="https://github.com/MarufMonem" class="contactLinks"><i class="fab fa-github"></i></a>
                 </p>
             </div>
+            <p id="end" class="text-center">Created with <i class="fas fa-heart"></i> from Maruf</p>
+            <p id="mail" class="text-center">maruf.monem@g.bracu.ac.bd</p>
         </div>
     </section>
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

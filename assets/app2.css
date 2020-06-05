@@ -1,17 +1,19 @@
-html{
-    width: 100%;
-}
+html {
+    scroll-behavior: smooth;
+  }
 body{
-    background: #000046;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgb(3, 87, 110), #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2980b9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: azure;
 }
 
 .navbar{
-    background: #000046;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgb(3, 87, 110), #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     }
 .navbar-brand{
     font-size: 2rem;
@@ -40,15 +42,20 @@ p{
 
 
 .card{
-    background: #000046;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgb(5, 72, 90), #000046);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgb(3, 87, 110), #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
 }
 .leftLine{
     border-left: 1px solid whitesmoke;
 }
-
+.card-header{
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
 
 
 /* Footer styles */
@@ -61,4 +68,6 @@ p{
 .lead{
     font-family: 'Shadows Into Light', cursive;
     font-size: 2rem;
+    
+
 }
