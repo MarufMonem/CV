@@ -19,7 +19,6 @@ background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, F
     font-size: 2rem;
 }
 
-
 p{
     font-family: 'Inconsolata', monospace;
     text-align: justify;
@@ -31,15 +30,29 @@ p{
     background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #004e92;
 }
-#eusc {
-    width: 90%;
+
+.result{
+    font-weight: bold;
+    color: aquamarine;
+    font-size: 1.2rem;
+}
+
+#youtubeLink a{
+    font-size: 1.3rem;
 }
 
 #moreLink{
-    color: #1CB5E0;
+    color: aquamarine;
     text-decoration: underline;
 }
 
+a{
+    color: aquamarine;
+}
+a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}
 
 .card{
     background: #2980b9;  /* fallback for old browsers */
@@ -56,6 +69,10 @@ p{
     background: linear-gradient(to right, #2c3e50, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    
 }
+#presentationSkills a{
+    color: white;
+    text-decoration: underline;
+}
 
 
 /* Footer styles */
@@ -64,10 +81,10 @@ p{
     color: whitesmoke;
     font-size: 2rem;
 }
-
+.contactLinks a:hover{
+    font-size: 2.1rem;
+}
 .lead{
     font-family: 'Shadows Into Light', cursive;
     font-size: 2rem;
-    
-
 }
