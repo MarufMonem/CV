@@ -2,6 +2,7 @@ var moreButton = document.getElementById("moreInfo");
 var moreLink = document.getElementById("moreLink");
 var hidden=true;
 
+// More link button collapse and text content change
 moreLink.addEventListener("click",function(){
     moreButton.classList.toggle("d-none");
     hidden=!(hidden);
@@ -11,6 +12,10 @@ moreLink.addEventListener("click",function(){
         moreLink.textContent="Hide";
     }
     
+})
+// More link text decoaration change
+$("#moreLink").hover(function(){
+    $(this).toggleClass("underLine");
 })
 
 $(function(){
@@ -90,4 +95,44 @@ footer.addEventListener("mouseover",function(){
 //     $('nav-item').removeClass("active");
 //     $('nav-item').eq(1).addClass("active");
 // })
+// $(".dropdown-menu a").on("click",function(){
+
+//     console.log($(this).eq);
+
+
+//     $("body").toggleClass("white");
+// })
+
+var light = document.getElementById("light");
+var blue = document.getElementById("blue");
+var dark = document.getElementById("dark");
+
+light.addEventListener("click",function(){
+    $("body").removeClass("blue");
+    $("body").removeClass("dark");
+    $("body").addClass("white");
+    $("a").css("color", "#45627A");
+    $("#moreLink").css({"color":"#0d346b"});
+    $(".title").css({"background":"whitesmoke","color":"#45627A"});
+    // $(".active").css({"color":"black","fontWeight":"bold"});
+    $(".navbar").removeClass("blue");
+    $(".navbar").removeClass("dark");
+    $(".navbar").addClass("white");
+    $(".result").css({"color":"#081985","fontWeight":"800"});
+    $(".card").removeClass("blue");
+    $(".card").removeClass("dark");
+    $(".card").addClass("white");
+})
+
+blue.addEventListener("click",function(){
+    $("body").removeClass("white");
+    $("body").removeClass("dark");
+    $("body").addClass("blue");
+})
+
+dark.addEventListener("click",function(){
+    $("body").removeClass("blue");
+    $("body").removeClass("white");
+    $("body").addClass("dark");
+})
 

@@ -2,10 +2,6 @@ html {
     scroll-behavior: smooth;
   }
 body{
-    background: #2980b9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     color: azure;
 }
 
@@ -18,13 +14,35 @@ background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, F
 .navbar-brand{
     font-size: 2rem;
 }
+.dropdown-menu a::before{
+    content: '  ';
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.btn{
+    border: none;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.btn:focus{
+    background-color:transparent;
+    border: none;
+}
 
 p{
     font-family: 'Inconsolata', monospace;
     text-align: justify;
 }
 
-#title{
+.title{
     background: #E0EAFC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -43,7 +61,6 @@ p{
 
 #moreLink{
     color: aquamarine;
-    text-decoration: underline;
 }
 
 a{
@@ -63,12 +80,7 @@ a:hover{
 .leftLine{
     border-left: 1px solid whitesmoke;
 }
-.card-header{
-    background: #000046;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   
-}
+
 #presentationSkills a{
     color: white;
     text-decoration: underline;
@@ -87,4 +99,30 @@ a:hover{
 .lead{
     font-family: 'Shadows Into Light', cursive;
     font-size: 2rem;
+}
+
+.white{
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #0F2027;    
+}
+
+.blue{
+        background: #2980b9;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.dark{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* More link toggle underline class */
+.underLine{
+    text-decoration: underline;
+    font-weight: 800;
 }
