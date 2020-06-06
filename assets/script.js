@@ -210,3 +210,4 @@ dark.addEventListener("click",function(){
     //a link color change
     $("#contentAfterNav a").css("color","#24d3ff");
 });
+
