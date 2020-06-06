@@ -133,6 +133,13 @@ light.addEventListener("click",function(){
     $(".card").removeClass("dark");
     //Adding new card color
     $(".card").addClass("white");
+    //Drop down button color change
+    $("#navbarDropdownMenuLink").removeClass("btn-outline-dark");
+    $("#navbarDropdownMenuLink").removeClass("btn-outline-info");
+    $("#navbarDropdownMenuLink").addClass("btn-outline-light");
+    //a link color change
+    $("#contentAfterNav a").css("color","#0d346b");
+
 });
 
 blue.addEventListener("click",function(){
@@ -161,6 +168,12 @@ blue.addEventListener("click",function(){
     $(".card").removeClass("dark");
     //Adding new card color
     $(".card").addClass("blue");
+    //Drop down button color change
+    $("#navbarDropdownMenuLink").removeClass("btn-outline-dark");
+    $("#navbarDropdownMenuLink").removeClass("btn-outline-light");
+    $("#navbarDropdownMenuLink").addClass("btn-outline-info");
+    //a link color change
+    $("#contentAfterNav a").css("color","#24d3ff");
 });
 
 
@@ -190,5 +203,10 @@ dark.addEventListener("click",function(){
     $(".card").removeClass("blue");
     //Adding new card color
     $(".card").addClass("dark");
-
+    //Drop down button color change
+    $("#navbarDropdownMenuLink").removeClass("btn-outline-info");
+    $("#navbarDropdownMenuLink").removeClass("btn-outline-light");
+    $("#navbarDropdownMenuLink").addClass("btn-outline-dark");
+    //a link color change
+    $("#contentAfterNav a").css("color","#24d3ff");
 });

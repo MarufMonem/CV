@@ -1,23 +1,30 @@
+/* Smooth Scrolling effect */
 html {
     scroll-behavior: smooth;
   }
+  /* intial font color and transition effect for theme change */
 body{
     color: azure;
     transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 }
+/* NAV  */
 
+/* Default navbar color */
 .navbar{
     background: #2980b9;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     }
+/* brand name size */
 .navbar-brand{
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
+/* DROP DOWN */
+
+/* Drop down menu circle effects */
 .dropdown-menu a{
     content: '  ';
-    /* border: 2px solid white; */
     border-radius: 50%;
     width: 2rem;
     height: 2rem;
@@ -25,12 +32,13 @@ body{
     vertical-align: middle;
     margin-right: 10px;
 }
+/* Dropdown menu transparent */
 .dropdown-menu{
     background-color: transparent;
     border: none;
 }
 
-
+/* Drop down button */
 .btn{
     border: none;
 }
@@ -91,7 +99,6 @@ a:hover{
     text-decoration: underline;
     font-weight: bold;
 }
-
 
 .card{
     background: #2980b9;  /* fallback for old browsers */
