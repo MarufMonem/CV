@@ -108,31 +108,87 @@ var blue = document.getElementById("blue");
 var dark = document.getElementById("dark");
 
 light.addEventListener("click",function(){
+    // Remove all the previous classes
     $("body").removeClass("blue");
     $("body").removeClass("dark");
+    // Add the new class peoperty
     $("body").addClass("white");
-    $("a").css("color", "#45627A");
+    //More info color shift
     $("#moreLink").css({"color":"#0d346b"});
+    //Title color change
     $(".title").css({"background":"whitesmoke","color":"#45627A"});
-    // $(".active").css({"color":"black","fontWeight":"bold"});
+    //Removing previous navbar colors/classes
     $(".navbar").removeClass("blue");
     $(".navbar").removeClass("dark");
+    // Adding new navbar colors
     $(".navbar").addClass("white");
+    //Removing white navbar font color
+    $(".navbar").removeClass("navbar-dark");
+    // Making the navabar font dark
+    $(".navbar").addClass("navbar-light");
+    //Changing results font color to match
     $(".result").css({"color":"#081985","fontWeight":"800"});
+    //Removing previous card colors
     $(".card").removeClass("blue");
     $(".card").removeClass("dark");
+    //Adding new card color
     $(".card").addClass("white");
-})
+});
 
 blue.addEventListener("click",function(){
+    // Remove all the previous classes
     $("body").removeClass("white");
     $("body").removeClass("dark");
+    // Add the new class peoperty
     $("body").addClass("blue");
-})
+    //More info color shift
+    $("#moreLink").css({"color":"#24d3ff"});
+    //Title color change
+    $(".title").addClass("titleBlue");
+    //Removing previous navbar colors/classes
+    $(".navbar").removeClass("white");
+    $(".navbar").removeClass("dark");
+    // Adding new navbar colors
+    $(".navbar").addClass("blue");
+    //Removing white navbar font color
+    $(".navbar").removeClass("navbar-light");
+    // Making the navabar font dark
+    $(".navbar").addClass("navbar-dark");
+    //Changing results font color to match
+    $(".result").css({"color":"#24d3ff","fontWeight":"800"});
+    //Removing previous card colors
+    $(".card").removeClass("white");
+    $(".card").removeClass("dark");
+    //Adding new card color
+    $(".card").addClass("blue");
+});
+
 
 dark.addEventListener("click",function(){
-    $("body").removeClass("blue");
+    // Remove all the previous classes
     $("body").removeClass("white");
+    $("body").removeClass("blue");
+    // Add the new class peoperty
     $("body").addClass("dark");
-})
+    //More info color shift
+    $("#moreLink").css({"color":"#24d3ff"});
+    //Title color change
+    $(".title").css({"background":"#5b5c5c","color":"whitesmoke"});
+    //Removing previous navbar colors/classes
+    $(".navbar").removeClass("white");
+    $(".navbar").removeClass("blue");
+    // Adding new navbar colors
+    $(".navbar").addClass("dark");
+    //Removing white navbar font color
+    $(".navbar").removeClass("navbar-light");
+    // Making the navabar font dark
+    $(".navbar").addClass("navbar-dark");
+    //Changing results font color to match
+    $(".result").css({"color":"#24d3ff","fontWeight":"800"});
+    //Removing previous card colors
+    $(".card").removeClass("white");
+    $(".card").removeClass("blue");
+    //Adding new card color
+    $(".card").addClass("dark");
 
+});
