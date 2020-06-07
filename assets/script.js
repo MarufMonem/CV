@@ -116,7 +116,9 @@ light.addEventListener("click",function(){
     //More info color shift
     $("#moreLink").css({"color":"#0d346b"});
     //Title color change
-    $(".title").css({"background":"whitesmoke","color":"#45627A"});
+    $(".title").remove("titleDark");
+    $(".title").remove("titleBlue");
+    $(".title").addClass("titleLight");
     //Removing previous navbar colors/classes
     $(".navbar").removeClass("blue");
     $(".navbar").removeClass("dark");
@@ -151,6 +153,8 @@ blue.addEventListener("click",function(){
     //More info color shift
     $("#moreLink").css({"color":"#24d3ff"});
     //Title color change
+    $(".title").remove("titleDark");
+    $(".title").remove("titleLight");
     $(".title").addClass("titleBlue");
     //Removing previous navbar colors/classes
     $(".navbar").removeClass("white");
@@ -186,7 +190,9 @@ dark.addEventListener("click",function(){
     //More info color shift
     $("#moreLink").css({"color":"#24d3ff"});
     //Title color change
-    $(".title").css({"background":"#5b5c5c","color":"whitesmoke"});
+    $(".title").remove("titleBlue");
+    $(".title").remove("titleLight");
+    $(".title").addClass("titleDark");
     //Removing previous navbar colors/classes
     $(".navbar").removeClass("white");
     $(".navbar").removeClass("blue");

@@ -168,6 +168,15 @@ a:hover{
     color: #004e92;
 }
 
+.titleDark{
+    background:"#5b5c5c";
+    color:"whitesmoke";
+}
+.titleLight{
+    background:"whitesmoke";
+    color:"#45627A";
+}
+
 .dropdown-menu .active{
     border: 2px dotted red;
 }
