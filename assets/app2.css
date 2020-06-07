@@ -93,11 +93,12 @@ p{
 }
 
 a{
-    color:  #004e92;
+    color:  #2fb9e4;
 }
 a:hover{
     text-decoration: underline;
     font-weight: bold;
+    color: wheat;
 }
 
 .card{
